@@ -1,6 +1,8 @@
 import React from 'react';
 import PageHeader from '../../components/PageHeader';
 import './styles.css';
+import TeacherItem from '../../components/TeacherItem';
+
 
 
 const TeacherList: React.FC = () => {
@@ -24,9 +26,31 @@ const TeacherList: React.FC = () => {
           <label htmlFor="time">Hora</label>
           <input type="text" id="time" />
         </div>
-
       </form>
       </PageHeader>
+
+        <main>
+          <TeacherItem />          
+          <TeacherItem />          
+          <TeacherItem />          
+          <TeacherItem />          
+          <TeacherItem />          
+          <TeacherItem />          
+          <TeacherItem />          
+          <TeacherItem />          
+          <TeacherItem />          
+          <TeacherItem />          
+          <TeacherItem />          
+          <TeacherItem />          
+          <TeacherItem />          
+          <TeacherItem />          
+          <TeacherItem />          
+          <TeacherItem />          
+          <TeacherItem />          
+          <TeacherItem />          
+          <TeacherItem />          
+
+        </main>
     </div>
   );
 }
