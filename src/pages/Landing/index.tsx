@@ -11,6 +11,8 @@ import { Link } from 'react-router-dom';
 import api from '../../services/api';
 
 const Landing: React.FC = () => {
+
+
   const [totalConnections, setTotalConnections] = useState(0);
 
   useEffect(() => {
